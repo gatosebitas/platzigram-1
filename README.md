@@ -24,7 +24,7 @@ pip install -r requirements.txt
 ## Entorno virtual
 
 1. Correr `python3 -m venv ENTORNO` donde `ENTORNO` sea el nombre deseado
-2. Correr ENTORNO/bin/activate.bat
+2. Correr .env/Scripts/activate.bat
 ```
 
 ## Win y linux
