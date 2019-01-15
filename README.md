@@ -8,13 +8,26 @@ Create a minimal project (inspired by instagram) in Django.
 Python 3
 Django
 
-## Usage
+## Usage in Unix
 ```shell
 python3 -m venv .env
 source .env/bin/activate
 pip install -r requirements.txt
 ```
+## Usage in Windows
+```shell
+## Verificación de la descarga
 
+1. Correr `python3 --version`
+2. Correr `pip3 --version`
+
+## Entorno virtual
+
+1. Correr `python3 -m venv ENTORNO` donde `ENTORNO` sea el nombre deseado
+2. Correr ENTORNO/bin/activate.bat
+```
+
+## Win y linux
 ```python
 python manage.py makemigrations
 python manage.py migrate
